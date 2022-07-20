@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NodeControl</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 class="titulo">NodeControl</h1>
+
+    <div class="caja">
+        <div class="energia">
+            <div class="tituloEnergia">
+                <h2 class="subtitulo">Estado de energía electrica</h2>
+                <img class="iconEnergia" width= "30px" height="30px" src="rayo.png" alt="energia">
+            </div>
+            <div class="valores">
+                <p>Tensión de linea = valor</p>
+                <p>Tensión de generador = valor</p>
+            </div>
+        </div>
+    
+        <div class="baterias">
+            <div class="tituloBaterias">
+                <h2 class="subtitulo">Estado de las baterias</h2>
+                <img class="iconBateria" src="bateria.png" width= "30px" height="30px"alt="bateria">
+            </div>
+            <div class="valores">
+                <p>Porcentaje de carga = valor</p>
+                <p>Tiempo restante de respaldo = valor</p>
+            </div>
+        </div>
+    
+        <div class="sensores">
+            <div class="tituloSensores">
+                <h2 class="subtitulo">Sensores de temperatura</h2>
+                <img class="iconSensor" src="temperatura.png" width="30px" height="30px alt="temperatura">
+            </div>
+            <div class="valores">
+                <p>Sensor del rack = valor</p>
+                <p>Sensor del nodo = valor</p>
+            </div>
+        </div>
+    
+        <div class="salidas">
+            <div class="tituloSalidas">
+                <h2 class="subtitulo">Salidas digitales</h2>
+                <img class="iconSalidas" src="led.png" width="30px" height="30px alt="led">
+            </div>
+            <div class="valoresLed">
+                <div class="ledUno">
+                    <p class="parrafoLed">Estado del LED 1 = valor</p>
+                    <div class="botones">
+                        <button class="btnON" type="button">ON</button>
+                        <button class="btnOFF" type="button">OFF</button>
+                    </div>
+                </div>
+                <div class="ledDos">
+                    <p class="parrafoLed">Estado del LED 2 = valor</p>
+                    <div class="botones">
+                        <button class="btnON" type="button">ON</button>
+                        <button class="btnOFF" type="button">OFF</button>
+                    </div>
+                </div>
+            </div>
+        </div>        
+    </div>
+    <div class="actualizar">
+        <a class="linkActualizar" href="#">ACTUALIZAR ENTRADAS</a> 
+    </div>
+</body>
+</html>
