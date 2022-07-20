@@ -161,6 +161,7 @@ body{
 .actualizar{
     background-color: white;
     text-align: center;
+    min-width: 20%;
     border-radius: 15px;
     margin: 42%;
     margin-top: 10px;
